@@ -1,7 +1,5 @@
 package practice;
 
-import java.util.TreeMap;
-
 import practice.SinglyLinkedList;
 import practice.SinglyLinkedList.Entry;
 
@@ -33,17 +31,5 @@ public class ListS1 {
 
 		return head;
 
-	}
-	
-	public static void main(String[] args) {
-		SinglyLinkedList<Integer> list = new SinglyLinkedList<>();
-		
-		for(int i = 0 ; i < 100 ; i++){
-			list.add(i+1);
-		}
-		
-		Entry head = elementAtK(list, 4);
-		System.out.println(head.element);
-	}
-
+	 }
 }
